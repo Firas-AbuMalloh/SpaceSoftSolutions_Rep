@@ -13,7 +13,7 @@
 
                         <div>
                             <button onclick="EvaluateEmployee()" class="btn btn-primary btn-sm">Evaluate Employee</button>
-                            <button onclick="downloadEvaluationsCSV()" class="btn btn-success btn-sm">Export CSV</button>
+                            <button onclick="downloadEvaluationsCSV()" class="btn btn-success btn-sm">Export Evaluations</button>
                         </div>
                     </div>
                     <div class="card-body px-0 pt-0 pb-2">
@@ -54,7 +54,7 @@
                                                 <p class="text-xs font-weight-bold mb-0">@evaluation.Employee.Position</p>
                                             </td>
                                             <td>
-                                                <p class="text-xs text-secondary mb-0">@evaluation.Employee.Department.Name</p>
+                                                <p class="text-xs text-secondary mb-0">@evaluation.Employee.Department?.Name</p>
                                             </td>
                                             <td>
                                                 <p class="text-xs text-secondary mb-0">

@@ -18,7 +18,9 @@
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos=
+        
+        "fade-up" data-aos-delay="100">
 
             <div class="row gy-4">
 
@@ -102,7 +104,7 @@
 
             $.ajax({
                 type: "POST",
-                url: "/Home/SubmitFeedback",
+                url: "/BaseHome/SubmitFeedback",
                 data: $(this).serialize(),
                 success: function (response) {
                     toastr.success("Your message has been sent successfully!", "Success");

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VfDULiClUfUe4HRNY5w2kKdbj7TQYBKqTCJiQAUfz20=",
+  "Hash": "jZb3Upc0SvOkjMVh9nk52SqnL+if/hMOLjsCbbl3flI=",
   "Source": "SpaceSoftSolutions",
   "BasePath": "_content/SpaceSoftSolutions",
   "Mode": "Default",
@@ -3118,8 +3118,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e79ifowl7y",
-      "Integrity": "Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0=",
+      "Fingerprint": "bfxb9sy5ub",
+      "Integrity": "93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4+A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css"
@@ -9486,6 +9486,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\profiles\\Screenshot 2024-12-06 012402.png"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\images\\profiles\\Screenshot 2024-12-06 020758.png",
+      "SourceId": "SpaceSoftSolutions",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\",
+      "BasePath": "_content/SpaceSoftSolutions",
+      "RelativePath": "images/profiles/Screenshot 2024-12-06 020758#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4177ni7ysd",
+      "Integrity": "qPEP+hIRja+jz07UXAZOae2v8TlWLbTe9L+pHx+tms4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profiles\\Screenshot 2024-12-06 020758.png"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\js\\site.js",
@@ -22762,6 +22783,51 @@
       ]
     },
     {
+      "Route": "assets-Manager/css/soft-ui-dashboard.bfxb9sy5ub.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 21:48:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfxb9sy5ub"
+        },
+        {
+          "Name": "label",
+          "Value": "assets-Manager/css/soft-ui-dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4+A="
+        }
+      ]
+    },
+    {
       "Route": "assets-Manager/css/soft-ui-dashboard.css",
       "AssetFile": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css",
       "Selectors": [],
@@ -22772,7 +22838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "514640"
+          "Value": "514662"
         },
         {
           "Name": "Content-Type",
@@ -22780,11 +22846,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0=\""
+          "Value": "\"93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4+A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 19:23:19 GMT"
+          "Value": "Mon, 03 Mar 2025 21:48:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22794,7 +22860,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0="
+          "Value": "sha256-93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4+A="
         }
       ]
     },
@@ -22877,51 +22943,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-ih4tGW6oVtLSMcpgjYKlsR1y/JTn2KwcLkoeXJzGjdw="
-        }
-      ]
-    },
-    {
-      "Route": "assets-Manager/css/soft-ui-dashboard.e79ifowl7y.css",
-      "AssetFile": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "514640"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 19:23:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e79ifowl7y"
-        },
-        {
-          "Name": "label",
-          "Value": "assets-Manager/css/soft-ui-dashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0="
         }
       ]
     },
@@ -47686,6 +47707,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-YAVL86frK1QWbL/6NUDHEbFUhuj34AVMxVHSQXIvDIw="
+        }
+      ]
+    },
+    {
+      "Route": "images/profiles/Screenshot 2024-12-06 020758.4177ni7ysd.png",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\images\\profiles\\Screenshot 2024-12-06 020758.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1422188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qPEP+hIRja+jz07UXAZOae2v8TlWLbTe9L+pHx+tms4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 21:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4177ni7ysd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/profiles/Screenshot 2024-12-06 020758.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qPEP+hIRja+jz07UXAZOae2v8TlWLbTe9L+pHx+tms4="
+        }
+      ]
+    },
+    {
+      "Route": "images/profiles/Screenshot 2024-12-06 020758.png",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\images\\profiles\\Screenshot 2024-12-06 020758.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1422188"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qPEP+hIRja+jz07UXAZOae2v8TlWLbTe9L+pHx+tms4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 21:18:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qPEP+hIRja+jz07UXAZOae2v8TlWLbTe9L+pHx+tms4="
         }
       ]
     },

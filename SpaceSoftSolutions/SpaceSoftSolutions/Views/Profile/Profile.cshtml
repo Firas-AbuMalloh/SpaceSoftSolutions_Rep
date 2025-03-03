@@ -1,5 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Profile";
+
+    if (Context.Session.GetString("UserType") == "HR"){
+        Layout = "DashboardLayout";
+    }
+    else if (Context.Session.GetString("UserType") == "Manager")
+    {
+        Layout = "DashboardManagers";
+    }
+    else {
+        Layout = "EmployeeDashboard";
+
+    }
 }
 
 @model dynamic

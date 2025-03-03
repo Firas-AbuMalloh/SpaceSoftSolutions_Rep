@@ -449,6 +449,7 @@ wwwroot\css\NewPass.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\profiles\Screenshot 2024-12-06 012402.png
+wwwroot\images\profiles\Screenshot 2024-12-06 020758.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

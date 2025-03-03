@@ -65,7 +65,7 @@
 </div>
 <div class="card mb-4">
     <div class="card-header pb-0">
-        <h6>Authors table</h6>
+        <h6>Employee Table</h6>
     </div>
     <div class="card-body px-0 pt-0 pb-2">
         <div class="table-responsive p-0">
@@ -101,7 +101,7 @@
                                 <p class="text-xs font-weight-bold mb-0">@employee.Position</p>
                             </td>
                             <td>
-                                <p class="text-xs text-secondary mb-0">@employee.Department.Name</p> <!-- عرض القسم -->
+                                <p class="text-xs text-secondary mb-0">@employee.Department?.Name</p> <!-- عرض القسم -->
                             </td>
                             <td>
                                 <p class="text-xs text-secondary mb-0">

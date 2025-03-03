@@ -54,7 +54,9 @@
 
                                             </td>
                                             <!-- إضافة رسائل التأكيد -->
-                                            <div id="responseMessage_@request.Id" class="alert alert-success" role="alert" style="display:none;">
+                                            <div id="responseMessage_@request.Id" class="alert alert-success" role="alert" style="display:none; color:white">
+                                            </div>
+                            <div id="responseMessage1_@request.Id" class="alert alert-danger" role="alert" style="display:none; color:white">
                                             </div>
                                             
                                         </tr>
@@ -73,6 +75,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
+
         function approveDecision(leaveRequestId) {
         // تعطيل زر الموافقة بمجرد النقر عليه
         document.getElementById('approveButton_' + leaveRequestId).disabled = true;
@@ -84,7 +87,7 @@
         document.getElementById('responseMessage_' + leaveRequestId).style.display = "block";
 
         $.ajax({
-            url: '/Manager/UpdateStatus',
+            url: '/Managers/UpdateStatus',
             type: 'POST',
             data: {
                 leaveRequestId: leaveRequestId,
@@ -110,6 +113,10 @@
         }, 5000);
     }
 
+
+
+
+
     function rejectDecision(leaveRequestId) {
         // تعطيل زر الرفض بمجرد النقر عليه
         document.getElementById('rejectButton_' + leaveRequestId).disabled = true;
@@ -117,11 +124,11 @@
         document.getElementById('approveButton_' + leaveRequestId).disabled = false;
 
         var message = "The decision has been rejected successfully!";
-        document.getElementById('responseMessage_' + leaveRequestId).innerHTML = message;
-        document.getElementById('responseMessage_' + leaveRequestId).style.display = "block";
+        document.getElementById('responseMessage1_' + leaveRequestId).innerHTML = message;
+        document.getElementById('responseMessage1_' + leaveRequestId).style.display = "block";
 
         $.ajax({
-            url: '/Manager/UpdateStatus',
+            url: '/Managers/UpdateStatus',
             type: 'POST',
             data: {
                 leaveRequestId: leaveRequestId,
@@ -143,7 +150,7 @@
 
         // إخفاء الرسالة بعد 5 ثوانٍ
         setTimeout(function() {
-            document.getElementById('responseMessage_' + leaveRequestId).style.display = "none";
+            document.getElementById('responseMessage1_' + leaveRequestId).style.display = "none";
         }, 5000);
     }
 

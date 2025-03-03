@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e79ifowl7y</Fingerprint>
-      <Integrity>Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0=</Integrity>
+      <Fingerprint>bfxb9sy5ub</Fingerprint>
+      <Integrity>93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4+A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets-Manager\css\soft-ui-dashboard.css'))</OriginalItemSpec>
@@ -8117,6 +8117,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\Screenshot 2024-12-06 012402.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\Screenshot 2024-12-06 020758.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SpaceSoftSolutions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SpaceSoftSolutions</BasePath>
+      <RelativePath>images/profiles/Screenshot 2024-12-06 020758.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4177ni7ysd</Fingerprint>
+      <Integrity>qPEP+hIRja+jz07UXAZOae2v8TlWLbTe9L+pHx+tms4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\Screenshot 2024-12-06 020758.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

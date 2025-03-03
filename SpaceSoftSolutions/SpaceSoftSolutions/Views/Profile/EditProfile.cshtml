@@ -3,6 +3,23 @@
 @{
     ViewData["Title"] = "Edit Profile";
 }
+@{
+    ViewData["Title"] = "Profile";
+
+    if (Context.Session.GetString("UserType") == "HR")
+    {
+        Layout = "DashboardLayout";
+    }
+    else if (Context.Session.GetString("UserType") == "Manager")
+    {
+        Layout = "DashboardManagers";
+    }
+    else
+    {
+        Layout = "EmployeeDashboard";
+
+    }
+}
 
 <div style="max-width: 900px; margin: 50px auto; padding: 30px; background: #f7f9fc; border-radius: 20px; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); font-family: 'Arial', sans-serif;">
     <h2 style="text-align: center; font-size: 32px; color: #333; font-weight: bold;">Edit Profile</h2>

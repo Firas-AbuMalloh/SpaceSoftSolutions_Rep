@@ -24,11 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E8NYtl7LPC3pMBVl/VEF0XurQalAQV6yRYUVKxIto9s="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2253"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022E8NYtl7LPC3pMBVl/VEF0XurQalAQV6yRYUVKxIto9s=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Oct 2024 15:03:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.bfxb9sy5ub.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets-Manager\css\soft-ui-dashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bfxb9sy5ub"},{"Name":"integrity","Value":"sha256-93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4\u002BA="},{"Name":"label","Value":"_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"514662"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002293YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4\u002BA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 21:48:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets-Manager\css\soft-ui-dashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"514640"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 19:23:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-93YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4\u002BA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"514662"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002293YqEf/m5dxmgZFziWwuhzCvqLtMbhEDqDI4oJSh4\u002BA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 21:48:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.css.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets-Manager\css\soft-ui-dashboard.css.map'))</AssetFile>
@@ -41,12 +47,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qjb8lgw6hg"},{"Name":"integrity","Value":"sha256-ih4tGW6oVtLSMcpgjYKlsR1y/JTn2KwcLkoeXJzGjdw="},{"Name":"label","Value":"_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.css.map"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"107580"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022ih4tGW6oVtLSMcpgjYKlsR1y/JTn2KwcLkoeXJzGjdw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Oct 2024 15:03:23 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.e79ifowl7y.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets-Manager\css\soft-ui-dashboard.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e79ifowl7y"},{"Name":"integrity","Value":"sha256-Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0="},{"Name":"label","Value":"_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"514640"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Gg55VB1vt/1RnyqMwVSK3VJrLWL4L1WPNnEjSULsuo0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 19:23:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/assets-Manager/css/soft-ui-dashboard.min.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets-Manager\css\soft-ui-dashboard.min.css'))</AssetFile>
@@ -5411,6 +5411,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YAVL86frK1QWbL/6NUDHEbFUhuj34AVMxVHSQXIvDIw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"594457"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YAVL86frK1QWbL/6NUDHEbFUhuj34AVMxVHSQXIvDIw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 19:37:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/images/profiles/Screenshot 2024-12-06 020758.4177ni7ysd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\Screenshot 2024-12-06 020758.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4177ni7ysd"},{"Name":"integrity","Value":"sha256-qPEP\u002BhIRja\u002Bjz07UXAZOae2v8TlWLbTe9L\u002BpHx\u002Btms4="},{"Name":"label","Value":"_content/SpaceSoftSolutions/images/profiles/Screenshot 2024-12-06 020758.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1422188"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qPEP\u002BhIRja\u002Bjz07UXAZOae2v8TlWLbTe9L\u002BpHx\u002Btms4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 21:18:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/images/profiles/Screenshot 2024-12-06 020758.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profiles\Screenshot 2024-12-06 020758.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qPEP\u002BhIRja\u002Bjz07UXAZOae2v8TlWLbTe9L\u002BpHx\u002Btms4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1422188"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qPEP\u002BhIRja\u002Bjz07UXAZOae2v8TlWLbTe9L\u002BpHx\u002Btms4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 21:18:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SpaceSoftSolutions/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

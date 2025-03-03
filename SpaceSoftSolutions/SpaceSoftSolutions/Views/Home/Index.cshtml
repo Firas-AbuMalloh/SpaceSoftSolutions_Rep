@@ -2,6 +2,9 @@
     ViewData["Title"] = "Home Page";
     var punchedInEmployeeId = Context.Session.GetInt32("PunchInEmployeeId"); // استرجاع قيمة الـ Session
 }
+@{
+    Layout = "EmployeeDashboard";
+}
 
 @model SpaceSoftSolutions.Models.Employee
 
