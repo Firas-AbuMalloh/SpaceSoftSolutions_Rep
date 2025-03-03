@@ -1,0 +1,58 @@
+﻿@model SpaceSoftSolutions.Models.Task
+
+@{
+    Layout = "DashboardManagers";
+}
+
+
+
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-header pb-0">
+                        <h6>Edit Task</h6>
+                    </div>
+                    <div class="card-body">
+<form asp-action="EditTask" asp-controller="Managers" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label for="TaskName" class="form-label">Task Name</label>
+        <input type="text" class="form-control" id="TaskName" asp-for="TaskName" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="Description" class="form-label">Description</label>
+        <textarea class="form-control" id="Description" asp-for="Description" rows="3" required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label for="StartDate" class="form-label">Start Date</label>
+        <input type="date" class="form-control" id="StartDate" asp-for="StartDate" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="EndDate" class="form-label">End Date</label>
+        <input type="date" class="form-control" id="EndDate" asp-for="EndDate" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="EmployeeId" class="form-label">Employee</label>
+                                <select class="form-control" asp-for="EmployeeId" asp-items="ViewBag.Employees" required>
+                                    <option value="">Select an Employee</option>
+                                </select>
+
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

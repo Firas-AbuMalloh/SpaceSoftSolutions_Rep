@@ -1,0 +1,69 @@
+﻿
+@model IEnumerable<SpaceSoftSolutions.Models.Department>
+
+@{
+    ViewData["Title"] = "Add Manager";
+    Layout = "DashboardLayout";
+}
+<link rel="stylesheet" href="~/css//AddManager.css" asp-append-version="true" />
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-4 text-primary">Add Manager</h1>
+        <a asp-action="Manager" asp-controller="ManagerHR" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left"></i> Back
+        </a>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h4 class="card-title mb-0">Add New Manager</h4>
+                </div>
+                <div class="card-body p-5">
+                    <form method="post" action="AddManager">
+                        <!-- الاسم -->
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" name="Name" placeholder="Enter full name" required>
+                        </div>
+
+                        <!-- البريد الإلكتروني -->
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="Email" placeholder="Enter email" required>
+                        </div>
+
+                        <!-- كلمة المرور -->
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" name="PasswordHash" placeholder="Enter password" required>
+                        </div>
+
+                        <!-- القسم -->
+                        <div class="mb-4">
+                            <label for="department" class="form-label">Department</label>
+                            <select name="DepartmentId" class="form-select" id="department" required>
+                                <option value="" disabled selected>Select a department</option>
+                                @foreach (var item in Model)
+                                {
+                                    <option value="@item.Id">@item.Name</option>
+                                }
+                            </select>
+                        </div>
+
+                        <!-- زر الإضافة -->
+                        <button type="submit" class="btn btn-primary w-100 py-3">
+                            <i class="fas fa-plus-circle"></i> Add Manager
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

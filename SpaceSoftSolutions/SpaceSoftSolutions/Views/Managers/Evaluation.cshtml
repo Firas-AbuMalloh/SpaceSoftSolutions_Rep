@@ -1,0 +1,193 @@
+﻿  @* @model List<SpaceSoftSolutions.Models.Evaluation> *@
+@{
+    Layout = "DashboardManagers";
+}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+                <div class="card mb-4">
+                    <div class="card-header pb-0">
+                    </div>
+                    <div class="card-body px-0 pt-0 pb-2">
+                        <div class="table-responsive p-0">
+                            <div class="container mt-5">
+                               
+                                <div id="evaluationForm"  >
+                                    <h2 class="text-center">Employee Yearly Evaluation</h2>
+                                    @if (TempData["SuccessMessage"] != null)
+                                    {
+                                        <script>
+                                            Swal.fire({
+                                                icon: 'success',
+                                                title: 'Success!',
+                                                text: '@TempData["SuccessMessage"]',
+                                                toast: true,
+                                                position: 'top-end',
+                                                showConfirmButton: false,
+                                                timer: 3000
+                                            });
+                                        </script>
+                                    }
+
+
+
+                                    <form id="evaluationForm" action="@Url.Action("SubmitEvaluation", "Managers")" method="POST">
+                                        <!-- اختيار المدير -->
+                                        <div class="mb-3">
+                                            <label for="manager" class="form-label">Select Manager:</label>
+                                            <select class="form-select" id="manager" name="ManagerId">
+                                                <option value="">-- Select Manager --</option>
+                                                @foreach (var manager in ViewBag.Managers)
+                                                {
+                                                    <option value="@manager.Id">@manager.Name</option>
+                                                }
+                                            </select>
+                                        </div>
+
+                                        <!-- اختيار الموظف -->
+                                        <div class="mb-3">
+                                            <label for="employee" class="form-label">Select Employee:</label>
+                                            <select class="form-select" id="employee" name="EmployeeId">
+                                                <option value="">-- Select Employee --</option>
+                                                @foreach (var employee in ViewBag.Employees)
+                                                {
+                                                    <option value="@employee.Id">@employee.Name</option>
+                                                }
+                                            </select>
+                                        </div>
+
+
+                                        
+
+                                        <!-- الأسئلة -->
+                                        <div class="mb-3">
+                                            <label for="question1">1. How would you rate the employee's overall performance this year?</label>
+                                            <select class="form-select" id="question1" name="question1">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question2">2. How effective is the employee at communicating with team members?</label>
+                                            <select class="form-select" id="question2" name="question2">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question3">3. Does the employee meet deadlines effectively?</label>
+                                            <select class="form-select" id="question3" name="question3">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question4">4. How well does the employee handle stress and pressure?</label>
+                                            <select class="form-select" id="question4" name="question4">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question5">5. How well does the employee contribute to the team’s goals?</label>
+                                            <select class="form-select" id="question5" name="question5">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question6">6. Does the employee demonstrate leadership qualities?</label>
+                                            <select class="form-select" id="question6" name="question6">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question7">7. How would you rate the employee's problem-solving skills?</label>
+                                            <select class="form-select" id="question7" name="question7">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question8">8. How would you rate the employee’s punctuality?</label>
+                                            <select class="form-select" id="question8" name="question8">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question9">9. Does the employee work well with others?</label>
+                                            <select class="form-select" id="question9" name="question9">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="question10">10. How would you rate the employee's overall attitude at work?</label>
+                                            <select class="form-select" id="question10" name="question10">
+                                                <option value="excellent">Excellent</option>
+                                                <option value="very_good">Very Good</option>
+                                                <option value="good">Good</option>
+                                                <option value="fair">Fair</option>
+                                            </select>
+                                        </div>
+
+                                        <!-- خانة الكومنت -->
+                                        <div class="mb-3">
+                                            <label for="comments" class="form-label">Comments:</label>
+                                            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                        </div>
+
+                                        <!-- زر الإرسال -->
+                                        <button class="btn btn-primary" type="submit"> Save </button>
+                                    </form>
+
+                                </div>
+</div>
+
+
+                           </div>
+                        </div>
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+    </div>
+
+
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+

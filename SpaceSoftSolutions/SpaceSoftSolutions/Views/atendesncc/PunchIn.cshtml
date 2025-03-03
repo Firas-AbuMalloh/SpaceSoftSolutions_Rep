@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "PunchIn";
+}
+
+@{
+    Layout = "EmployeeDashboard";
+}
+
+@model Attendance
+
+<h2>Welcome</h2>
+
+<table class="table">
+
+    <tr>
+        <th><h4>Id</h4></th>
+        <td>@Model.Id</td>
+    </tr>
+    <tr>
+        <th><h4>EmployeeId</h4></th>
+        <td>@Model.EmployeeId</td>
+    </tr>
+    <tr>
+        <th><h4>PunchIn</h4></th>
+        <td>@Model.PunchIn</td>
+    </tr>
+    <tr>
+        <th><h4>PunchOut</h4></th>
+        <td>@Model.PunchOut</td>
+
+    </tr>
+</table>
+@* <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Back to List</a> *@
+
+
+

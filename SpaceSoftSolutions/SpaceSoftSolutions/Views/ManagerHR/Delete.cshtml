@@ -1,0 +1,52 @@
+﻿@model SpaceSoftSolutions.Models.Manager
+
+
+@{
+    ViewData["Title"] = "Delete Manager";
+    Layout = "DashboardLayout";
+
+}
+<link rel="stylesheet" href="~/css//DeleteManager.css" asp-append-version="true" />
+
+<div class="container mt-5">
+    <h1 class="text-danger">Delete Manager</h1>
+    <hr />
+    <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Are you sure you want to delete this manager?</h4>
+        <p>This action cannot be undone. All data related to this manager will be permanently deleted.</p>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title">Manager Details</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">Name</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+                <dt class="col-sm-3">Password Hash</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.PasswordHash)</dd>
+
+                <dt class="col-sm-3">Department</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Department.Name)</dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="DeleteManager" class="mt-4">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger btn-lg">
+            <i class="fas fa-trash-alt"></i> Delete
+        </button>
+        <a asp-action="Manager" class="btn btn-outline-secondary btn-lg">
+            <i class="fas fa-arrow-left"></i> Back to List
+        </a>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Evaluation>
+@{
+    Layout = "EmployeeDashboard";
+}
+
+<h2>Evaluations</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Score</th>
+            <th>Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var evaluation in Model)
+        {
+            <tr>
+                <td>@evaluation.Score</td>
+                <td>@evaluation.Comments</td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>

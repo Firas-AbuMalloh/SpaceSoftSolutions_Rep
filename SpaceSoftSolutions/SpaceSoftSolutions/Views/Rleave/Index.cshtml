@@ -1,0 +1,31 @@
+﻿@model List<SpaceSoftSolutions.Models.HourlyLeave>
+
+<h2>Leave request</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>EmployeeId</th>
+            <th>StartTime</th>
+            <th>EndTime</th>
+            <th>Reason</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var req in Model)
+        {
+            <tr>
+                <td>@req.Id</td>
+                <td>@req.EmployeeId</td> <!-- يمكنك ربط اسم الموظف هنا إذا أردت -->
+                <td>@req.StartTime</td>
+                <td>@req.EndTime</td>
+                <td>@req.Reason</td>
+                <td>@req.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-primary mt-3">Home</a>

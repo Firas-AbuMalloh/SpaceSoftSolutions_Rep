@@ -1,0 +1,30 @@
+﻿@model SpaceSoftSolutions.Models.LeaveRequest
+@{
+    Layout = "EmployeeDashboard";
+}
+
+<h2>Request Leave</h2>
+
+<form asp-action="Requestvaca" method="post">
+    <input type="hidden" asp-for="EmployeeId" value="@ViewBag.empId" />
+
+    <div class="form-group">
+        <label>Start Date</label>
+        <input type="date" asp-for="StartDate" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>End Date</label>
+        <input type="date" asp-for="EndDate" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Reason</label>
+        <input asp-for="Reason" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" />
+    </div>
+</form>
+<a href="@Url.Action("Index", "Rleave")" class="btn btn-primary mt-3">Home</a>

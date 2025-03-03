@@ -1,0 +1,30 @@
+﻿@* @model List<SpaceSoftSolutions.Models.Attendance> *@
+@model List<SpaceSoftSolutions.Models.Attendance>
+
+@{
+    Layout = "EmployeeDashboard";
+}
+
+<h2>Welcome</h2>
+
+<h2>Attendance Records for Employee ID: @ViewBag.EmployeeId</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Punch In</th>
+            <th>Punch Out</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model)
+        {
+            <tr>
+                <td>@record.PunchIn</td>
+                <td>@(record.PunchOut?.ToString() ?? "Still Working")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-primary">Back to Home</a>

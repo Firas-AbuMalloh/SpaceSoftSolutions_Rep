@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceSoftSolutions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20187ccae1c453ecf4d39730567b27fc31612920")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceSoftSolutions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceSoftSolutions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,34 @@
+﻿@model List<SpaceSoftSolutions.Models.LeaveRequest>
+@{
+    Layout = "EmployeeDashboard";
+}
+
+<h2>vacation request</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>EmployeeId</th>
+            <th>StartDate</th>
+            <th>EndDate</th>
+            <th>Reason</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var req in Model)
+        {
+            <tr>
+                <td>@req.Id</td>
+                <td>@req.EmployeeId</td> <!-- يمكنك ربط اسم الموظف هنا إذا أردت -->
+                <td>@req.StartDate</td>
+                <td>@req.EndDate</td>
+                <td>@req.Reason</td>
+                <td>@req.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-primary mt-3">Home</a>

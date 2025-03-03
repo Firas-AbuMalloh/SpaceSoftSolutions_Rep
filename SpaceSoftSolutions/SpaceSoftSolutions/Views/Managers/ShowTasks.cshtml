@@ -1,0 +1,149 @@
+﻿@* @model IEnumerable<SpaceSoftSolutions.Models.Manager> *@
+
+@* @{ *@
+@*     ViewData["Title"] = "ShowTasks"; *@
+@* } *@
+
+@* <h1>ShowTasks</h1> *@
+
+@* <p> *@
+@*     <a asp-action="Create">Create New</a> *@
+@* </p> *@
+@* <table class="table"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Name) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Email) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.PasswordHash) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.GoogleId) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Department) *@
+@*             </th> *@
+@*             <th></th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@* @foreach (var item in Model) { *@
+@*         <tr> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.Name) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.Email) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.PasswordHash) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.GoogleId) *@
+@*             </td> *@
+@*             <td> *@
+@*                 @Html.DisplayFor(modelItem => item.Department.Id) *@
+@*             </td> *@
+@*             <td> *@
+@*                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | *@
+@*                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> | *@
+@*                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
+@*             </td> *@
+@*         </tr> *@
+@* } *@
+@*     </tbody> *@
+@* </table> *@
+
+@model IEnumerable<SpaceSoftSolutions.Models.Task>
+
+@{
+    ViewData["Title"] = "Employee Tasks";
+}
+@{
+    Layout = "DashboardManagers";
+}
+<h1>Employee Tasks</h1>
+
+
+<input type="text" id="taskSearch" placeholder="Search tasks..." />
+<button onclick="startVoiceSearch()">🎤</button>
+
+<table class="table" id="taskTable">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.TaskName)</th>
+            <th>@Html.DisplayNameFor(model => model.Description)</th>
+            <th>@Html.DisplayNameFor(model => model.StartDate)</th>
+            <th>@Html.DisplayNameFor(model => model.EndDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th></th> 
+        </tr>
+    </thead>
+    <tbody id="taskBody">
+        @foreach (var task in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => task.TaskName)</td>
+                <td>@Html.DisplayFor(modelItem => task.Description)</td>
+                <td>@Html.DisplayFor(modelItem => task.StartDate)</td>
+                <td>@Html.DisplayFor(modelItem => task.EndDate)</td>
+                <td>@Html.DisplayFor(modelItem => task.Status)</td>
+                <td>
+                    <a asp-action="DeleteTask1" asp-route-id="@task.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script>
+    function startVoiceSearch() {
+        if (!('webkitSpeechRecognition' in window)) {
+            alert("Your browser does not support speech recognition.");
+            return;
+        }
+
+        let recognition = new webkitSpeechRecognition();
+        recognition.lang = 'en-US';
+        recognition.start();
+
+        recognition.onresult = function(event) {
+            let searchQuery = event.results[0][0].transcript;
+            document.getElementById("taskSearch").value = searchQuery;  // Keep input updated
+            filterTasks(searchQuery);  // Filter the tasks
+        };
+    }
+
+    function filterTasks(query) {
+        let rows = document.querySelectorAll("#taskTable tbody tr");
+        rows.forEach(row => {
+            let taskName = row.cells[0].innerText.toLowerCase();
+            // Check if task name matches the search query
+            if (taskName.includes(query.toLowerCase())) {
+                row.style.display = "";  // Show the row
+            } else {
+                row.style.display = "none";  // Hide the row
+            }
+        });
+    }
+
+    // Add listener for input field, so users can filter tasks manually as well
+    document.getElementById("taskSearch").addEventListener("input", function() {
+        filterTasks(this.value);
+    });
+
+        document.getElementById("taskSearch").addEventListener("input", function() {
+        if (this.value.trim() === "") {
+            // If search input is empty, show all tasks
+            document.querySelectorAll("#taskTable tbody tr").forEach(row => row.style.display = "");
+        } else {
+            filterTasks(this.value);
+        }
+    });
+</script>

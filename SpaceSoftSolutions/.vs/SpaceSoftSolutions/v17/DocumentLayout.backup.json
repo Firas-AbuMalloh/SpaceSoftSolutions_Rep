@@ -1,12 +1,885 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\forgetpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\forgetpasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\service\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\service\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\managerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\managerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\forgetpassword\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\forgetpassword\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\shared\\dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\shared\\dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\shared\\homelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\profile\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\profile\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\wwwroot\\assets-manager\\css\\soft-ui-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\wwwroot\\assets-manager\\css\\soft-ui-dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\managerhrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\managerhrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\managerhr\\manager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\managerhr\\manager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\employees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\wwwroot\\css\\editdepartment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\wwwroot\\css\\editdepartment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\editdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\editdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\wwwroot\\css\\adddepartment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\wwwroot\\css\\adddepartment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\adddepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\adddepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\addmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\addmanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\wwwroot\\css\\addmanager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\wwwroot\\css\\addmanager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\departmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\departmentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\approvedleaves.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\approvedleaves.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\wwwroot\\css\\departmentdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\wwwroot\\css\\departmentdetails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\wwwroot\\css\\employeeshr.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\wwwroot\\css\\employeeshr.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\departments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\departments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\hr\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\hr\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\basehome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\basehome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\wwwroot\\css\\departments.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\wwwroot\\css\\departments.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\basehome\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\basehome\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\basehomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\basehomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\basehome\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\basehome\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\basehome\\contact1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\basehome\\contact1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\atendesncc\\indexx.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\atendesncc\\indexx.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\basehome\\department1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\basehome\\department1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\basehome\\portfoliodetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\basehome\\portfoliodetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\controllers\\atendesncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\controllers\\atendesncc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\forgetpassword\\newpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\forgetpassword\\newpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\forgetpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\forgetpassword\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\forgetpassword\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\forgetpassword\\department.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\forgetpassword\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\forgetpassword\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\login\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\login\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\views\\shared\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\views\\shared\\employeedashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|c:\\users\\orange\\desktop\\final project mvc\\spacesoftsolutions_rep\\spacesoftsolutions\\spacesoftsolutions\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88182339-1B98-41E1-B0DB-A51F41182F15}|SpaceSoftSolutions\\SpaceSoftSolutions.csproj|solutionrelative:spacesoftsolutions\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Shared\\DashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Shared\\DashboardLayout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Shared\\DashboardLayout.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Shared\\DashboardLayout.cshtml",
+              "ViewState": "AgIAAHgBAAAAAAAAAAAAwO0BAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:15:50.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ManagersController.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\ManagersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ManagersController.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\ManagersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T15:03:28.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgetPasswordController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ForgetPasswordController.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\ForgetPasswordController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ForgetPasswordController.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\ForgetPasswordController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:44:00.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Program.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Program.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:41:33.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\ForgetPassword\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\ResetPassword.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\ForgetPassword\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T19:50:45.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\Home.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\Home.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\Home.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\Home.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:19:48.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:20:53.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwHMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T17:46:35.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Service\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Service\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Service\\PasswordHasher.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Service\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T20:13:29.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T19:22:15.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Shared\\HomeLayout.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Shared\\HomeLayout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Shared\\HomeLayout.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Shared\\HomeLayout.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwE8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T12:06:00.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Profile\\Profile.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Profile\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Profile\\Profile.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Profile\\Profile.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T17:48:19.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManagerHRController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ManagerHRController.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\ManagerHRController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\ManagerHRController.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\ManagerHRController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T18:43:58.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\About.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\About.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\About.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\About.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:10:54.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EditDepartment.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\EditDepartment.css",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\wwwroot\\css\\EditDepartment.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\EditDepartment.css",
+              "RelativeToolTip": "SpaceSoftSolutions\\wwwroot\\css\\EditDepartment.css",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T15:34:02.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Profile\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Profile\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Profile\\EditProfile.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Profile\\EditProfile.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T19:29:52.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "soft-ui-dashboard.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css",
+              "RelativeToolTip": "SpaceSoftSolutions\\wwwroot\\assets-Manager\\css\\soft-ui-dashboard.css",
+              "ViewState": "AgIAADZdAAAAAAAAAAAgwE1dAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T19:19:17.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T19:22:13.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditDepartment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\EditDepartment.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\EditDepartment.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\EditDepartment.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\EditDepartment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:33:31.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Employees.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\Employees.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\Employees.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\Employees.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\Employees.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:09:23.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T18:44:18.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Manager.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ManagerHR\\Manager.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\ManagerHR\\Manager.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ManagerHR\\Manager.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\ManagerHR\\Manager.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T18:42:11.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddManager.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\AddManager.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\AddManager.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\AddManager.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\AddManager.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:28:00.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddDepartment.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\AddDepartment.css",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\wwwroot\\css\\AddDepartment.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\AddDepartment.css",
+              "RelativeToolTip": "SpaceSoftSolutions\\wwwroot\\css\\AddDepartment.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T15:27:25.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddManager.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\AddManager.css",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\wwwroot\\css\\AddManager.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\AddManager.css",
+              "RelativeToolTip": "SpaceSoftSolutions\\wwwroot\\css\\AddManager.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T15:27:17.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddDepartment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\AddDepartment.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\AddDepartment.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\AddDepartment.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\AddDepartment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:09:02.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DepartmentDetails.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\DepartmentDetails.css",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\wwwroot\\css\\DepartmentDetails.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\DepartmentDetails.css",
+              "RelativeToolTip": "SpaceSoftSolutions\\wwwroot\\css\\DepartmentDetails.css",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T15:26:27.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PortfolioDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\PortfolioDetails.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\BaseHome\\PortfolioDetails.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\PortfolioDetails.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\BaseHome\\PortfolioDetails.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T12:02:05.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\BaseHome\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Index.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\BaseHome\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T11:58:41.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApprovedLeaves.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\ApprovedLeaves.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\ApprovedLeaves.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\ApprovedLeaves.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\ApprovedLeaves.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:08:55.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DepartmentDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\DepartmentDetails.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\DepartmentDetails.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\DepartmentDetails.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\DepartmentDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:08:34.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Departments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\Departments.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\Departments.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\Departments.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\Departments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:07:54.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmployeesHR.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\EmployeesHR.css",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\wwwroot\\css\\EmployeesHR.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\EmployeesHR.css",
+              "RelativeToolTip": "SpaceSoftSolutions\\wwwroot\\css\\EmployeesHR.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T15:23:07.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\AddEmployee.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\HR\\AddEmployee.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\HR\\AddEmployee.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\HR\\AddEmployee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T15:09:02.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Departments.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\Departments.css",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\wwwroot\\css\\Departments.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\wwwroot\\css\\Departments.css",
+              "RelativeToolTip": "SpaceSoftSolutions\\wwwroot\\css\\Departments.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-03T15:08:27.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Department1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Department1.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\BaseHome\\Department1.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Department1.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\BaseHome\\Department1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T12:03:27.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Portfolio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Portfolio.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\BaseHome\\Portfolio.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Portfolio.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\BaseHome\\Portfolio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T12:00:48.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\About.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\BaseHome\\About.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\About.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\BaseHome\\About.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAqwMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T11:59:53.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:03:12.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BaseHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\BaseHomeController.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\BaseHomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\BaseHomeController.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\BaseHomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:57:46.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Indexx.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\atendesncc\\Indexx.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\atendesncc\\Indexx.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\atendesncc\\Indexx.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\atendesncc\\Indexx.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:45:13.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Contact1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Contact1.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\BaseHome\\Contact1.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\BaseHome\\Contact1.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\BaseHome\\Contact1.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAqwFQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T12:21:46.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Models\\Employee.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Models\\Employee.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:47:54.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "NewPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\NewPassword.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\ForgetPassword\\NewPassword.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\NewPassword.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\ForgetPassword\\NewPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T11:09:28.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T09:35:42.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "atendesncc.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\atendesncc.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Controllers\\atendesncc.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Controllers\\atendesncc.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Controllers\\atendesncc.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:46:22.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "forgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Login\\forgetPassword.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Login\\forgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Login\\forgetPassword.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Login\\forgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T10:54:18.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\Index.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\ForgetPassword\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\Index.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\ForgetPassword\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T10:47:48.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ForgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\ForgetPassword.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\ForgetPassword\\ForgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\ForgetPassword.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\ForgetPassword\\ForgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T10:52:19.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Department.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\Department.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\ForgetPassword\\Department.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\ForgetPassword\\Department.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\ForgetPassword\\Department.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T11:12:58.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\EmailService.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\EmailService.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\EmailService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T10:41:26.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\appsettings.json",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\appsettings.json",
+              "RelativeToolTip": "SpaceSoftSolutions\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-03T10:41:41.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Models\\Attendance.cs",
+              "RelativeToolTip": "SpaceSoftSolutions\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T08:47:49.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EmployeeDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Shared\\EmployeeDashboard.cshtml",
+              "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Shared\\EmployeeDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Shared\\EmployeeDashboard.cshtml",
+              "RelativeToolTip": "SpaceSoftSolutions\\Views\\Shared\\EmployeeDashboard.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T08:02:50.866Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

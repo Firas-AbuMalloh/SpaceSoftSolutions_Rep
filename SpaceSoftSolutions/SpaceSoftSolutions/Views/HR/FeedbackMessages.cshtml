@@ -1,0 +1,29 @@
+﻿@using SpaceSoftSolutions.Models
+@{
+}
+<link rel="stylesheet" href="~/css//FeedBack.css" asp-append-version="true" />
+
+<div class="container my-5">
+    <h1 class="text-center mb-4">Feedbacks</h1>
+    <div class="row">
+        @foreach (var feedback in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">From: @feedback.Name</div>
+                    <div class="card-body">
+                        <p><strong>Email:</strong> @feedback.Email</p>
+                        <p><strong>Message:</strong> @feedback.Message</p>
+                        <p><strong>Submitted At:</strong> @feedback.SubmittedAt</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- زر تحميل الـ PDF -->
+    <a href="@Url.Action("ExportToPDF", "HR", new { reportType = "feedbacks" })" class="btn btn-primary">
+        Download Feedbacks PDF
+    </a>
+    </a>
+</div>

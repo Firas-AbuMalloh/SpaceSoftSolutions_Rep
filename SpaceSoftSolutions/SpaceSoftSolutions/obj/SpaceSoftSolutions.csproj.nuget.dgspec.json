@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {}
+    "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {
+    "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
+        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
         "projectName": "SpaceSoftSolutions",
-        "projectPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
+        "projectPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
         "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions\\SpaceSoftSolutions\\obj\\",
+        "outputPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,40 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,129 @@
+﻿@model List<SpaceSoftSolutions.Models.Evaluation>  
+
+@{
+    Layout = "DashboardManagers";
+}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+                <div class="card mb-4">
+                    <div class="card-header pb-0 d-flex justify-content-between align-items-center">
+                        <h6>Evaluations Table</h6>
+
+
+                        <div>
+                            <button onclick="EvaluateEmployee()" class="btn btn-primary btn-sm">Evaluate Employee</button>
+                            <button onclick="downloadEvaluationsCSV()" class="btn btn-success btn-sm">Export CSV</button>
+                        </div>
+                    </div>
+                    <div class="card-body px-0 pt-0 pb-2">
+                        <div class="table-responsive p-0">
+                            <table class="table align-items-center mb-0" id="evaluationTable">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Full Name</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Email</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Position</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Department</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Manager</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">DateEvaluated</th>
+
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Score</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Comments</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var evaluation in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex px-2 py-1">
+                                                    <div>
+                                                        <img src="../assets-Manager/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user">
+                                                    </div>
+                                                    <div class="d-flex flex-column justify-content-center">
+                                                        <h6 class="mb-0 text-sm">@evaluation.Employee.Name</h6>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@evaluation.Employee.Email</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">@evaluation.Employee.Position</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@evaluation.Employee.Department.Name</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">
+                                                    @if (evaluation.Employee.Manager != null)
+                                                    {
+                                                        @evaluation.Employee.Manager.Name
+                                                    }
+                                                    else
+                                                    {
+                                                        <span>No Manager</span>
+                                                    }
+                                                </p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@evaluation.DateEvaluated</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@evaluation.Score</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@evaluation.Comments</p>
+                                            </td>
+                                           
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function EvaluateEmployee() {
+                window.location.href = "/Managers/Evaluation";
+            }
+
+           
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var successMessage = '@TempData["SuccessMessage"]';
+
+                if (successMessage && successMessage !== '') {
+                    Swal.fire({
+                        title: 'Success!',
+                        text: successMessage,
+                        icon: 'success',
+                        confirmButtonText: 'OK'
+                    }).then(() => {
+                        // إزالة الرسالة من الجلسة بعد عرضها
+                        fetch('/Managers/ClearSuccessMessage', { method: 'POST' });
+                    });
+                }
+            });
+        </script>
+        <script>
+            function downloadEvaluationsCSV() {
+                window.location.href = "/Managers/ExportEvaluationsCSV";
+            }
+        </script>
+
+    </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+

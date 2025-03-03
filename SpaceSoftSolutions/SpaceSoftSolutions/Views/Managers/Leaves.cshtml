@@ -1,0 +1,150 @@
+﻿  @model List<SpaceSoftSolutions.Models.LeaveRequest>
+
+@{
+    Layout = "DashboardManagers";
+}
+
+                <div class="card mb-4">
+                    <div class="card-header pb-0">
+                        <h6>Leave Requests Table</h6>
+                    </div>
+                    <div class="card-body px-0 pt-0 pb-2">
+                        <div class="table-responsive p-0">
+                            <table class="table align-items-center mb-0">
+                                <thead>
+                                    <tr>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Employee Name</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Start Date</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">End Date</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Reason</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
+                                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var request in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex px-2 py-1">
+                                                    <div class="d-flex flex-column justify-content-center">
+                                                        <h6 class="mb-0 text-sm">@request.Employee.Name</h6>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@(request.StartDate != null ? request.StartDate.ToString("yyyy-MM-dd") : "N/A")</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@(request.EndDate != null ? request.EndDate.ToString("yyyy-MM-dd") : "N/A")</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@request.Reason</p>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs text-secondary mb-0">@request.Status</p>
+                                            </td>
+                                           
+                                           
+                                                <td class="align-middle">
+
+                                                <button id="approveButton_@request.Id" class="btn btn-success" onclick="approveDecision(@request.Id)">Approve</button>
+                                                <button id="rejectButton_@request.Id" class="btn btn-danger" onclick="rejectDecision(@request.Id)">Reject</button>
+                                               
+
+                                            </td>
+                                            <!-- إضافة رسائل التأكيد -->
+                                            <div id="responseMessage_@request.Id" class="alert alert-success" role="alert" style="display:none;">
+                                            </div>
+                                            
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+        function approveDecision(leaveRequestId) {
+        // تعطيل زر الموافقة بمجرد النقر عليه
+        document.getElementById('approveButton_' + leaveRequestId).disabled = true;
+        // تمكين زر الرفض
+        document.getElementById('rejectButton_' + leaveRequestId).disabled = false;
+
+        var message = "The decision has been approved successfully!";
+        document.getElementById('responseMessage_' + leaveRequestId).innerHTML = message;
+        document.getElementById('responseMessage_' + leaveRequestId).style.display = "block";
+
+        $.ajax({
+            url: '/Manager/UpdateStatus',
+            type: 'POST',
+            data: {
+                leaveRequestId: leaveRequestId,
+                decision: 'approve'
+            },
+            success: function(response) {
+                if (response.success) {
+                    console.log("Status updated successfully!");
+                    // تأخير إعادة تحميل الصفحة بعد 3 ثوانٍ لإظهار الرسالة
+                    setTimeout(function() {
+                        location.reload(); // إعادة تحميل الصفحة بالكامل
+                    }, 3000);
+                }
+            },
+            error: function(xhr, status, error) {
+                console.log("Error: " + error);
+            }
+        });
+
+        // إخفاء الرسالة بعد 5 ثوانٍ
+        setTimeout(function() {
+            document.getElementById('responseMessage_' + leaveRequestId).style.display = "none";
+        }, 5000);
+    }
+
+    function rejectDecision(leaveRequestId) {
+        // تعطيل زر الرفض بمجرد النقر عليه
+        document.getElementById('rejectButton_' + leaveRequestId).disabled = true;
+        // تمكين زر الموافقة
+        document.getElementById('approveButton_' + leaveRequestId).disabled = false;
+
+        var message = "The decision has been rejected successfully!";
+        document.getElementById('responseMessage_' + leaveRequestId).innerHTML = message;
+        document.getElementById('responseMessage_' + leaveRequestId).style.display = "block";
+
+        $.ajax({
+            url: '/Manager/UpdateStatus',
+            type: 'POST',
+            data: {
+                leaveRequestId: leaveRequestId,
+                decision: 'reject'
+            },
+            success: function(response) {
+                if (response.success) {
+                    console.log("Status updated successfully!");
+                    // تأخير إعادة تحميل الصفحة بعد 3 ثوانٍ لإظهار الرسالة
+                    setTimeout(function() {
+                        location.reload(); // إعادة تحميل الصفحة بالكامل
+                    }, 3000);
+                }
+            },
+            error: function(xhr, status, error) {
+                console.log("Error: " + error);
+            }
+        });
+
+        // إخفاء الرسالة بعد 5 ثوانٍ
+        setTimeout(function() {
+            document.getElementById('responseMessage_' + leaveRequestId).style.display = "none";
+        }, 5000);
+    }
+
+</script>
