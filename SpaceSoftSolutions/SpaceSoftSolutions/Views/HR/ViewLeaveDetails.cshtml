@@ -2,115 +2,83 @@
     ViewData["Title"] = "Leave Request Details";
 }
 
-@section Styles {
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        body {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            font-family: 'Poppins', sans-serif;
-            padding: 30px;
-            color: #fff;
-        }
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            text-align: center;
-        }
 
-        h2 {
-            margin-bottom: 30px;
-            font-size: 32px;
-            color: #fff;
-        }
-
-        .leave-card {
-            background: rgba(255, 255, 255, 0.3);
-            padding: 25px;
-            border-radius: 15px;
-            text-align: center;
-            position: relative;
-            transition: transform 0.3s ease-in-out;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            margin-bottom: 30px;
-        }
-
-            .leave-card h3 {
-                margin: 15px 0;
-                font-size: 28px;
-                color: #fff;
-            }
-
-            .leave-card p {
-                font-size: 16px;
-                margin: 10px 0;
-                color: #fff;
-            }
-
-                .leave-card p strong {
-                    color: #764ba2;
-                }
-
-        .download-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #fff;
-            color: #764ba2;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-            .download-btn:hover {
-                background: #764ba2;
-                color: #fff;
-            }
-
-        .modal-content {
-            background: #fff;
-            padding: 20px;
-            border-radius: 15px;
-            width: 50%;
-            text-align: center;
-            color: #333;
-        }
-
-        .details-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #fff;
-            color: #764ba2;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-            margin-top: 20px;
-            cursor: pointer;
-        }
-
-            .details-btn:hover {
-                background: #764ba2;
-                color: #fff;
-            }
-    </style>
-}
-
-<div class="container">
-    <h2>Leave Request Details</h2>
-
-    <!-- عرض التفاصيل -->
-    <div class="leave-card">
-        <h3>@Model.Employee.Name</h3>
-        <p><strong>Email:</strong> @Model.Employee.Email</p>
-        <p><strong>Start Date:</strong> @Model.StartDate.ToShortDateString()</p>
-        <p><strong>End Date:</strong> @Model.EndDate.ToShortDateString()</p>
-        <p><strong>Reason:</strong> @Model.Reason</p>
-        <p><strong>Status:</strong> @Model.Status</p>
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="fw-bold text-dark">Leave Request Details</h1>
+        <a href="@Url.Action("ApprovedLeaves", "HR")" class="btn btn-outline-primary">Back to Approved Requests</a>
     </div>
 
-    <!-- العودة إلى الصفحة السابقة -->
-    <a href="/HR/ApprovedLeaves" class="download-btn">Back to Approved Requests</a>
+    <div class="card shadow-lg border-0 rounded-4 overflow-hidden animated-card">
+        <div class="card-header" style="background-color: #3a4fb1; color: white; font-weight: bold; text-align: center; padding: 15px;">
+            Leave Information
+        </div>
+        <div class="card-body text-dark px-5 py-4">
+            <p class="fs-5"><strong>Employee:</strong> @Model.Employee.Name</p>
+            <p class="fs-5"><strong>Email:</strong> @Model.Employee.Email</p>
+            <p class="fs-5"><strong>Start Date:</strong> @Model.StartDate.ToShortDateString()</p>
+            <p class="fs-5"><strong>End Date:</strong> @Model.EndDate.ToShortDateString()</p>
+            <p class="fs-5"><strong>Reason:</strong> @Model.Reason</p>
+            <p class="fs-5"><strong>Status:</strong> <span class="badge" style="background-color: #3a4fb1; color: white; padding: 10px 15px; border-radius: 10px;">@Model.Status</span></p>
+        </div>
+    </div>
 </div>
+
+<style>
+    body {
+        background: #f8f9fc;
+        font-family: 'Poppins', sans-serif;
+        color: #333;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+        background: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+    }
+
+    h1 {
+        color: #2c3e50;
+    }
+
+    .animated-card {
+        animation: fadeInUp 0.8s ease-in-out;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+        background: #3a4fb1;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+
+        .btn-primary:hover {
+            background: #2e3d91;
+        }
+
+    .btn-outline-primary {
+        color: #3a4fb1;
+        border: 2px solid #3a4fb1;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #3a4fb1;
+            color: white;
+        }
+
+    .badge {
+        font-size: 1rem;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+</style>

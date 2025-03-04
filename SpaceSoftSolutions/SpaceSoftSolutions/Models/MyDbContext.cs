@@ -37,13 +37,13 @@ public partial class MyDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-HBCC5GE;Database=SpaceSoftSolutions;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-0QT3U0S;Database=SpaceSoftSolutions;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Attendance>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Attendan__3214EC27EFE2443C");
+            entity.HasKey(e => e.Id).HasName("PK__Attendan__3214EC27D5913978");
 
             entity.ToTable("Attendance");
 
@@ -59,7 +59,7 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Department>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Departme__3214EC27022EB3DD");
+            entity.HasKey(e => e.Id).HasName("PK__Departme__3214EC27CC21E144");
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Description)
@@ -72,9 +72,9 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Employee>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Employee__3214EC27B466478F");
+            entity.HasKey(e => e.Id).HasName("PK__Employee__3214EC2744B5BCB8");
 
-            entity.HasIndex(e => e.Email, "UQ__Employee__A9D1053457278936").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Employee__A9D10534858E633B").IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Address)
@@ -115,7 +115,7 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Evaluation>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Evaluati__3214EC272218B734");
+            entity.HasKey(e => e.Id).HasName("PK__Evaluati__3214EC273CEFAB07");
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Comments)
@@ -140,7 +140,7 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Feedback>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Feedback__3214EC275228520C");
+            entity.HasKey(e => e.Id).HasName("PK__Feedback__3214EC2720325E58");
 
             entity.ToTable("Feedback");
 
@@ -159,7 +159,7 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<HourlyLeave>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__HourlyLe__3214EC27DE878180");
+            entity.HasKey(e => e.Id).HasName("PK__HourlyLe__3214EC273A6A0AD2");
 
             entity.ToTable("HourlyLeave");
 
@@ -180,11 +180,11 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Hr>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__HR__3214EC278A08A33F");
+            entity.HasKey(e => e.Id).HasName("PK__HR__3214EC27E68F40A1");
 
             entity.ToTable("HR");
 
-            entity.HasIndex(e => e.Email, "UQ__HR__A9D105349F5FAB6E").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__HR__A9D10534BE2CC0D4").IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Address)
@@ -213,7 +213,7 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<LeaveRequest>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__LeaveReq__3214EC2730B56102");
+            entity.HasKey(e => e.Id).HasName("PK__LeaveReq__3214EC27C3B51117");
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.EmployeeId).HasColumnName("EmployeeID");
@@ -232,9 +232,9 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Manager>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Managers__3214EC27ABF65471");
+            entity.HasKey(e => e.Id).HasName("PK__Managers__3214EC279B63E2C7");
 
-            entity.HasIndex(e => e.Email, "UQ__Managers__A9D10534B50B866D").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Managers__A9D105343852623C").IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Address)
@@ -269,7 +269,7 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Task>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Tasks__3214EC27999CD595");
+            entity.HasKey(e => e.Id).HasName("PK__Tasks__3214EC27413DF369");
 
             entity.Property(e => e.Id).HasColumnName("ID");
             entity.Property(e => e.Description).HasColumnType("text");

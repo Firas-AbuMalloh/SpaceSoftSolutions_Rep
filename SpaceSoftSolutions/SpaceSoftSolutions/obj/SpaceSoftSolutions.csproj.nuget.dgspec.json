@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {}
+    "C:\\Users\\hi\\Desktop\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {
+    "C:\\Users\\hi\\Desktop\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
+        "projectUniqueName": "C:\\Users\\hi\\Desktop\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
         "projectName": "SpaceSoftSolutions",
-        "projectPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
-        "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\Desktop\\Final Project MVC\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\obj\\",
+        "projectPath": "C:\\Users\\hi\\Desktop\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\SpaceSoftSolutions.csproj",
+        "packagesPath": "C:\\Users\\hi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hi\\Desktop\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Orange\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

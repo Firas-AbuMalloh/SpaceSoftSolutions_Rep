@@ -1,57 +1,51 @@
 ﻿@model List<SpaceSoftSolutions.Models.Attendance>
 
-
 @{
     Layout = "DashboardManagers";
 }
+
 <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
-    <!-- Navbar code here (if needed) -->
-    <!-- Attendance Table -->
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-12">
-                <div class="card mb-4">
-                    <div class="card-header pb-0">
-                        <h6>Attendance for Employee: @Model.FirstOrDefault()?.Employee.Name</h6>
+            <div class="col-lg-10 mx-auto">
+                <div class="card mb-4 shadow-lg">
+                    <div class="card-header pb-0 d-flex justify-content-between align-items-center" style="background-color: #3a4fb1; color: white; border-radius: 12px 12px 0 0;">
+                        <h6 class="mb-0">Attendance for Employee: <span class="fw-bold">@Model.FirstOrDefault()?.Employee.Name</span></h6>
                     </div>
-                    <div class="card-body px-0 pt-0 pb-2">
-                        <div class="table-responsive p-0">
+                    <div class="card-body px-4 pt-2 pb-3">
+                        <div class="table-responsive">
                             @if (Model != null && Model.Any())
                             {
-                                <table class="table align-items-center mb-0">
-                                    <thead>
+                                <table class="table table-hover text-center align-items-center mb-0">
+                                    <thead style="background-color: #3a4fb1; color: white;">
                                         <tr>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Punch In</th>
-                                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Punch Out</th>
-                                            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Total Hours</th>
+                                            <th>Date</th>
+                                            <th>Punch In</th>
+                                            <th>Punch Out</th>
+                                            <th>Total Hours</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody style="background-color: #f8f9fa;">
                                         @foreach (var attendance in Model)
                                         {
-                                            <tr>
+                                            <tr class="hover-effect">
+                                                <td>@attendance.PunchIn.ToString("MM/dd/yyyy")</td>
                                                 <td>
-                                                    <p class="text-xs text-secondary mb-0">@attendance.PunchIn.ToString("MM/dd/yyyy")</p>
+                                                    <span class="badge bg-primary">@attendance.PunchIn.ToString("HH:mm")</span>
                                                 </td>
                                                 <td>
-                                                    <p class="text-xs text-secondary mb-0">@attendance.PunchIn.ToString("HH:mm")</p>
+                                                    <span class="badge bg-secondary">@attendance.PunchOut?.ToString("HH:mm")</span>
                                                 </td>
                                                 <td>
-                                                    <p class="text-xs text-secondary mb-0">@attendance.PunchOut?.ToString("HH:mm")</p>
-                                                </td>
-                                                <td class="text-center">
-                                                    <p class="text-xs text-secondary mb-0">
-                                                        @if (attendance.PunchOut.HasValue)
-                                                        {
-                                                            var totalHours = (attendance.PunchOut.Value - attendance.PunchIn).TotalHours;
-                                                            @totalHours.ToString("0.##")
-                                                        }
-                                                        else
-                                                        {
-                                                            <span>N/A</span>
-                                                        }
-                                                    </p>
+                                                    @if (attendance.PunchOut.HasValue)
+                                                    {
+                                                        var totalHours = (attendance.PunchOut.Value - attendance.PunchIn).TotalHours;
+                                                        <span class="badge bg-success">@totalHours.ToString("0.##") hrs</span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="badge bg-warning">N/A</span>
+                                                    }
                                                 </td>
                                             </tr>
                                         }
@@ -60,10 +54,7 @@
                             }
                             else
                             {
-                                <!-- رسالة إذا كانت البيانات غير موجودة -->
-                                <div class="text-center text-secondary">
-                                    <p>No attendance records found for this employee.</p>
-                                </div>
+                                <div class="alert alert-warning text-center mt-3">No attendance records found for this employee.</div>
                             }
                         </div>
                     </div>
@@ -72,3 +63,33 @@
         </div>
     </div>
 </main>
+
+<style>
+    /* ✅ تحسين تصميم الجدول ليكون أكثر وضوحًا */
+    .table td, .table th {
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        max-width: 200px;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #dbe3ff !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* تحسين الأزرار */
+    .badge {
+        font-size: 14px;
+        padding: 8px 12px;
+        border-radius: 8px;
+    }
+
+    .alert-warning {
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 8px;
+        color: #856404;
+        background-color: #fff3cd;
+        border-color: #ffeeba;
+    }
+</style>

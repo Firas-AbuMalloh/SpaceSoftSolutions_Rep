@@ -46,7 +46,17 @@ namespace SpaceSoftSolutions.Controllers
 
         public IActionResult Edit(int id)
         {
-            var manager = _context.Managers.Find(id);
+            var manager = _context.Managers
+                                  .Include(m => m.Department) // تضمين بيانات القسم
+                                  .FirstOrDefault(m => m.Id == id); // البحث عن المدير حسب الـ ID
+
+            if (manager == null)
+            {
+                return NotFound();
+            }
+
+            // تمرير قائمة الأقسام إلى الـ View لتعبئة القائمة المنسدلة
+            ViewBag.Departments = _context.Departments.ToList();
 
             return View(manager);
         }

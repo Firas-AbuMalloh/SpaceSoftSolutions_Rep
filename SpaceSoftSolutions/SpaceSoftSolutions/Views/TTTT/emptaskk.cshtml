@@ -1,53 +1,72 @@
 ﻿@model List<SpaceSoftSolutions.Models.Task>
+
 @{
     Layout = "EmployeeDashboard";
-
 }
-<h2>Tasks List</h2>
-<input type="text" id="taskSearch" placeholder="Search tasks..." />
-<button onclick="startVoiceSearch()">🎤</button>
-<!-- عرض المهام -->
-<table class="table" id="taskTable">
-    <thead>
-        <tr>
-            <th>Task Name</th>
-            <th>Description</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th>Status</th>
-            <th>Action</th> <!-- عمود لتغيير الحالة -->
-        </tr>
-    </thead>
-    <tbody id="taskBody">
-        @foreach (var task in Model)
-        {
-            <tr>
-                <td>@task.TaskName</td>
-                <td>@task.Description</td>
-                <td>@task.StartDate.ToString("yyyy-MM-dd")</td>
-                <td>@task.EndDate.ToString("yyyy-MM-dd")</td>
-                <td>@task.Status</td>
-                <td>
-                    <!-- نموذج لتغيير الحالة -->
-                    <form method="post" action="@Url.Action("emptaskk", "TTTT")">
-                        <input type="hidden" name="Id" value="@task.Id" />
+<main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
+    <div class="container-fluid py-4">
+        <div class="row">
+            <div class="col-12">
+                <!-- عرض الجدول ليشمل الصفحة بالكامل -->
+                <div class="card mb-4 shadow-lg" style="border-radius: 12px; background-color: #f8f9fa;">
+                    <div class="card-header pb-0 d-flex justify-content-between align-items-center" style="background-color: #2e3c82; color: white; border-radius: 12px 12px 0 0;">
+                        <h6 class="mb-0">Tasks List</h6>
+                    </div>
+                    <div class="card-body px-3 pt-3 pb-2">
+                        <div class="input-group mb-3" style="max-width: 400px; margin: auto;">
+                            <input type="text" id="taskSearch" class="form-control" placeholder="Search tasks..." />
+                            <button class="btn btn-primary" onclick="startVoiceSearch()">🎤</button>
+                        </div>
 
-                        <!-- تم استخدام radio buttons بدلاً من checkboxes -->
-                        <label>
-                            <input type="radio" name="Status" value="To Do" @(task.Status == "To Do" ? "checked" : "") onchange="this.form.submit()" /> To Do
-                        </label>
-                        <label>
-                            <input type="radio" name="Status" value="Doing" @(task.Status == "Doing" ? "checked" : "") onchange="this.form.submit()" /> Doing
-                        </label>
-                        <label>
-                            <input type="radio" name="Status" value="Done" @(task.Status == "Done" ? "checked" : "") onchange="this.form.submit()" /> Done
-                        </label>
-                    </form>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+                        <div class="table-responsive p-0">
+                            <table class="table align-items-center table-hover w-100" style="border-radius: 10px; overflow: hidden;">
+                                <thead style="background-color: #0056b3; color: white;">
+                                    <tr>
+                                        <th class="text-uppercase text-light text-xs font-weight-bold p-3">Task Name</th>
+                                        <th class="text-uppercase text-light text-xs font-weight-bold p-3">Description</th>
+                                        <th class="text-uppercase text-light text-xs font-weight-bold p-3">Start Date</th>
+                                        <th class="text-uppercase text-light text-xs font-weight-bold p-3">End Date</th>
+                                        <th class="text-uppercase text-light text-xs font-weight-bold p-3">Status</th>
+                                        <th class="text-uppercase text-light text-xs font-weight-bold p-3">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="taskBody" style="background-color: white;">
+                                    @foreach (var task in Model)
+                                    {
+                                        <tr class="hover-effect">
+                                            <td class="p-3"><p class="text-xs text-dark mb-0">@task.TaskName</p></td>
+                                            <td class="p-3"><p class="text-xs text-dark mb-0">@task.Description</p></td>
+                                            <td class="p-3"><p class="text-xs text-dark mb-0">@task.StartDate.ToString("yyyy-MM-dd")</p></td>
+                                            <td class="p-3"><p class="text-xs text-dark mb-0">@task.EndDate.ToString("yyyy-MM-dd")</p></td>
+                                            <td class="p-3"><p class="text-xs text-dark mb-0">@task.Status</p></td>
+                                            <td class="p-3">
+                                                <form method="post" action="@Url.Action("emptaskk", "TTTT")">
+                                                    <input type="hidden" name="Id" value="@task.Id" />
+                                                    <div class="d-flex">
+                                                        <label class="me-2">
+                                                            <input type="radio" name="Status" value="To Do" @(task.Status == "To Do" ? "checked" : "") onchange="this.form.submit()" /> To Do
+                                                        </label>
+                                                        <label class="me-2">
+                                                            <input type="radio" name="Status" value="Doing" @(task.Status == "Doing" ? "checked" : "") onchange="this.form.submit()" /> Doing
+                                                        </label>
+                                                        <label>
+                                                            <input type="radio" name="Status" value="Done" @(task.Status == "Done" ? "checked" : "") onchange="this.form.submit()" /> Done
+                                                        </label>
+                                                    </div>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
 <script>
     function startVoiceSearch() {
         if (!('webkitSpeechRecognition' in window)) {
@@ -61,8 +80,8 @@
 
         recognition.onresult = function(event) {
             let searchQuery = event.results[0][0].transcript;
-            document.getElementById("taskSearch").value = searchQuery;  // Keep input updated
-            filterTasks(searchQuery);  // Filter the tasks
+            document.getElementById("taskSearch").value = searchQuery;
+            filterTasks(searchQuery);
         };
     }
 
@@ -70,26 +89,55 @@
         let rows = document.querySelectorAll("#taskTable tbody tr");
         rows.forEach(row => {
             let taskName = row.cells[0].innerText.toLowerCase();
-            // Check if task name matches the search query
             if (taskName.includes(query.toLowerCase())) {
-                row.style.display = "";  // Show the row
+                row.style.display = "";
             } else {
-                row.style.display = "none";  // Hide the row
+                row.style.display = "none";
             }
         });
     }
 
-    // Add listener for input field, so users can filter tasks manually as well
     document.getElementById("taskSearch").addEventListener("input", function() {
-        filterTasks(this.value);
-    });
-
-        document.getElementById("taskSearch").addEventListener("input", function() {
         if (this.value.trim() === "") {
-            // If search input is empty, show all tasks
             document.querySelectorAll("#taskTable tbody tr").forEach(row => row.style.display = "");
         } else {
             filterTasks(this.value);
         }
     });
 </script>
+
+<style>
+    .hover-effect:hover {
+        background-color: #e9f5ff !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    table {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .form-control, .form-select {
+        border-radius: 8px;
+    }
+
+    .btn-primary {
+        background-color: #0056b3;
+        border: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+        .btn-primary:hover {
+            background-color: #004494;
+        }
+
+    .table-responsive {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .card-header {
+        background-color: #004494 ;
+    }
+</style>
