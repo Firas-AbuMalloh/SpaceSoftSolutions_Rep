@@ -10,19 +10,19 @@
             <div class="col-lg-10 mx-auto">
                 <div class="card mb-4 shadow-lg">
                     <div class="card-header pb-0 d-flex justify-content-between align-items-center" style="background-color: #3a4fb1; color: white; border-radius: 12px 12px 0 0;">
-                        <h6 class="mb-0">Attendance for Employee: <span class="fw-bold">@Model.FirstOrDefault()?.Employee.Name</span></h6>
+                        <h3 style="color: white !important; margin:auto; margin-bottom:5px; ">Attendance for Employee: <span class="fw-bold">@Model.FirstOrDefault()?.Employee.Name</span></h3>
                     </div>
                     <div class="card-body px-4 pt-2 pb-3">
                         <div class="table-responsive">
                             @if (Model != null && Model.Any())
                             {
                                 <table class="table table-hover text-center align-items-center mb-0">
-                                    <thead style="background-color: #3a4fb1; color: white;">
+                                    <thead style="background-color: #3a4fb1; color: white;font-size: 16px !important;">
                                         <tr>
-                                            <th>Date</th>
-                                            <th>Punch In</th>
-                                            <th>Punch Out</th>
-                                            <th>Total Hours</th>
+                                            <th style="color: white !important;">Date</th>
+                                            <th style ="color: white !important;">Punch In</th>
+                                            <th style ="color: white !important;">Punch Out</th>
+                                            <th style="color: white !important;">Total Hours</th>
                                         </tr>
                                     </thead>
                                     <tbody style="background-color: #f8f9fa;">

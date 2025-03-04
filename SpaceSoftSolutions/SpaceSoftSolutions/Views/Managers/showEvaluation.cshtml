@@ -9,7 +9,7 @@
     <!-- جعل العرض كامل للصفحة -->
     <div class="card mb-4 shadow-lg">
         <div class="card-header pb-0 d-flex justify-content-between align-items-center" style="background-color: #3a4fb1; color: white; border-radius: 12px 12px 0 0;">
-            <h6 class="mb-0">Evaluations Table</h6>
+            <h3 style="color: white !important; margin-top:15px; margin-bottom:5px; ">Evaluations Table</h3>
             <div>
                 <button onclick="EvaluateEmployee()" class="btn btn-light text-primary btn-sm"><i class="fas fa-edit"></i> Evaluate Employee</button>
                 <button onclick="downloadEvaluationsCSV()" class="btn btn-success btn-sm"><i class="fas fa-file-download"></i> Export Evaluations</button>
@@ -19,17 +19,17 @@
             <div class="table-responsive" style="overflow-x: auto;">
                 <!-- منع السكرول الجانبي إلا عند الحاجة -->
                 <table class="table table-hover text-center align-items-center mb-0" id="evaluationTable">
-                    <thead style="background-color: #3a4fb1; color: white; font-size: 12px;">
+                    <thead class="text-white" style="background-color: #3a4fb1 !important; font-size: 16px !important;">
                         <!-- تصغير الخط -->
                         <tr>
-                            <th class="color1">Full Name</th>
-                            <th class="color1">Email</th>
-                            <th class="color1">Position</th>
-                            <th class="color1">Department</th>
-                            <th class="color1">Manager</th>
-                            <th class="color1">Date Evaluated</th>
-                            <th class="color1">Score</th>
-                            <th class="color1">Comments</th>
+                            <th style="color: white !important;" >Full Name</th>
+                            <th style="color: white !important;">Email</th>
+                            <th style="color: white !important;">Position</th>
+                            <th style="color: white !important;">Department</th>
+                            <th style="color: white !important;">Manager</th>
+                            <th style="color: white !important;">Date Evaluated</th>
+                            <th style="color: white !important;">Score</th>
+                            <th style="color: white !important;">Comments</th>
                         </tr>
                     </thead>
                     <tbody style="background-color: #f8f9fa; font-size: 11px;">
@@ -40,18 +40,18 @@
                                 <td>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <img src="../assets-Manager/img/team-4.jpg" class="avatar avatar-sm me-2" alt="user">
-                                        <h6 class="mb-0 text-sm">@evaluation.Employee.Name</h6>
+                                        <p style="font-size: 14px;">@evaluation.Employee.Name</p>
                                     </div>
                                 </td>
-                                <td>@evaluation.Employee.Email</td>
-                                <td>@evaluation.Employee.Position</td>
-                                <td>@(evaluation.Employee.Department?.Name ?? "N/A")</td>
-                                <td>@(evaluation.Employee.Manager?.Name ?? "No Manager")</td>
-                                <td>@evaluation.DateEvaluated</td>
+                                <td style="font-size: 14px;">@evaluation.Employee.Email</td>
+                                <td style="font-size: 14px;">@evaluation.Employee.Position</td>
+                                <td style="font-size: 14px;">@(evaluation.Employee.Department?.Name ?? "N/A")</td>
+                                <td style="font-size: 14px;">@(evaluation.Employee.Manager?.Name ?? "No Manager")</td>
+                                <td style="font-size: 14px;">@evaluation.DateEvaluated</td>
                                 <td>
-                                    <span class="badge bg-primary">@evaluation.Score</span>
+                                    <span class="badge bg-primary" style="width: 100px; display: inline-block; text-align: center;">@evaluation.Score</span>
                                 </td>
-                                <td style="word-break: break-word; white-space: normal; max-width: 250px;">
+                                <td style="font-size: 18px;">
                                     @evaluation.Comments
                                 </td> <!-- ✅ التصحيح هنا، لن يتم قص النص بعد الآن -->
                             </tr>

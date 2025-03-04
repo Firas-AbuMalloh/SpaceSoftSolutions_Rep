@@ -1,30 +1,44 @@
 ﻿@model Employee
 
 @{
-    Layout = "DashboardManagers";
+    Layout = "~/Views/Shared/DashboardManagers.cshtml";
 }
 
+
+
+
 <div class="container py-4">
-    <div class="row justify-content-center">
-        <div class="col-lg-8">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
             <div class="card mb-4 shadow-lg">
-                <div class="card-header text-white text-center" style="background-color: #3a4fb1; border-radius: 12px 12px 0 0;">
-                    <h5 class="mb-0">Task Details for @Model.Name</h5>
+                <div class="card-header bg-primary text-white" style="background:#3a4fb1!important;">
+                    <h5 class="text-center" style="color:#eee !important;">Task Details for @Model.Name</h5>
                 </div>
                 <div class="card-body p-4">
                     @if (Model.Tasks.Any())
                     {
                         @foreach (var task in Model.Tasks)
                         {
-                            <div class="mb-4 p-4 border rounded shadow-sm bg-light">
-                                <div class="d-flex flex-column gap-2">
-                                    <h5 class="mb-2"><strong>Task Name:</strong> <span class="text-primary">@task.TaskName</span></h5>
-                                    <h6 class="mb-2"><strong>Description:</strong> <span class="text-muted">@task.Description</span></h6>
-                                    <h6 class="mb-2"><strong>Start Date:</strong> <span class="badge bg-primary">@task.StartDate.ToString("yyyy-MM-dd")</span></h6>
-                                    <h6 class="mb-2"><strong>End Date:</strong> <span class="badge bg-danger">@task.EndDate.ToString("yyyy-MM-dd")</span></h6>
-                                    <h6 class="mb-2"><strong>Status:</strong> <span class="badge bg-success">@task.Status</span></h6>
+                            <div class="mb-4 p-3 border rounded shadow-sm bg-light">
+                                <div class="d-flex flex-wrap">
+                                    <div class="me-4 mb-2">
+                                        <h5><strong>Task Name:</strong> <span>@task.TaskName</span></h5>
+                                    </div>
+                                    <div class="me-4 mb-2">
+                                        <h6><strong>Description:</strong> <span class="text-muted">@task.Description</span></h6>
+                                    </div>
+                                    <div class="me-4 mb-2">
+                                        <h6><strong>Start Date:</strong> <span class="badge" style="background:#3a4fb1!important;">@task.StartDate.ToString("yyyy-MM-dd")</span></h6>
+                                    </div>
+                                    <div class="me-4 mb-2">
+                                        <h6><strong>End Date:</strong> <span class="badge" style="background:#3a4fb1!important;">@task.EndDate.ToString("yyyy-MM-dd")</span></h6>
+                                    </div>
+                                    <div class="me-4 mb-2">
+                                        <h6><strong>Status:</strong> <span class="badge" style="background:#3a4fb1!important;">@task.Status</span></h6>
+                                    </div>
                                 </div>
                             </div>
+
                         }
                     }
                     else
@@ -33,32 +47,10 @@
                     }
 
                     <div class="text-center mt-3">
-                        <a href="/managers/Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Back to Employees</a>
+                        <a href="/managers/Index" class="btn btn-secondary">Back to Employees</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-    .badge {
-        font-size: 14px;
-        padding: 8px 12px;
-        border-radius: 8px;
-    }
-
-    .shadow-sm {
-        transition: all 0.3s ease-in-out;
-    }
-
-        .shadow-sm:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
-        }
-
-    .btn-secondary {
-        border-radius: 8px;
-        padding: 10px 20px;
-    }
-</style>

@@ -71,22 +71,23 @@
     <!-- جدول الموظفين -->
     <div class="card mb-4 shadow-lg">
         <div class="card-header pb-0 d-flex justify-content-between align-items-center" style="background-color: #3a4fb1; color: white; border-radius: 12px 12px 0 0;">
-            <h6 class="mb-0">Employee Table</h6>
+            <h3  style="color: white !important; margin:auto; margin-bottom:5px; ">Employee Table</h3>
         </div>
         <div class="card-body px-3 pt-0 pb-2">
             <div class="table-responsive">
                 <table class="table table-hover text-center align-items-center mb-0">
-                    <thead style="background-color: #3a4fb1; color: white; font-size: 12px;">
+                    <thead class="text-white" style="background-color: #3a4fb1 !important; font-size: 20px !important;">
                         <tr>
-                            <th>Full Name</th>
-                            <th>Email</th>
-                            <th>Position</th>
-                            <th>Department</th>
-                            <th>Manager</th>
-                            <th>Actions</th>
+                            <th style="color: white !important;">Full Name</th>
+                            <th style="color: white !important;">Email</th>
+                            <th style="color: white !important;">Position</th>
+                            <th style="color: white !important;">Department</th>
+                            <th style="color: white !important;">Manager</th>
+                            <th style="color: white !important;">Actions</th>
+
                         </tr>
                     </thead>
-                    <tbody style="background-color: #f8f9fa; font-size: 11px;">
+                    <tbody style="background-color: #f8f9fa; font-size: 16px !important;">
                         @foreach (var employee in Model)
                         {
                             <tr class="hover-effect">
@@ -110,10 +111,10 @@
                                     }
                                 </td>
                                 <td>
-                                    <a href="@Url.Action("TaskDetails","Managers",new{id=employee.Id})" class="btn btn-custom-primary btn-sm">
+                                    <a href="@Url.Action("TaskDetails","Managers",new{id=employee.Id})" class="btn btn-custom-primary btn-sm" style="width:100px; padding:10px 5px">
                                         <i class="fas fa-tasks"></i> View Task
                                     </a>
-                                    <a href="@Url.Action("Attendance","Managers",new{id=employee.Id})" class="btn btn-custom-secondary btn-sm">
+                                    <a href="@Url.Action("Attendance","Managers",new{id=employee.Id})" class="btn btn-custom-secondary btn-sm" style="width:100px; padding:10px 5px">
                                         <i class="fas fa-calendar-check"></i> View Attendance
                                     </a>
                                 </td>

@@ -9,29 +9,31 @@
 <div class="container-fluid py-4">
     <div class="card mb-4 shadow-lg">
         <div class="card-header pb-0 d-flex justify-content-between align-items-center" style="background-color: #3a4fb1; color: white; border-radius: 12px 12px 0 0;">
-            <h6 class="mb-0">Leave Requests Table</h6>
+            <h3 style="color: white !important; margin:auto; margin-bottom:5px; ">Leave Requests Table</h3>
+
         </div>
         <div class="card-body px-3 pt-0 pb-2">
             <div class="table-responsive" style="overflow-x: auto;">
                 <table class="table table-hover text-center align-items-center mb-0" id="leaveRequestsTable">
-                    <thead style="background-color: #3a4fb1; color: white; font-size: 12px;">
+                    <thead class="text-white" style="background-color: #3a4fb1 !important; font-size: 20px !important;">
                         <tr>
-                            <th>Employee Name</th>
-                            <th>Start Date</th>
-                            <th>End Date</th>
-                            <th>Reason</th>
-                            <th>Status</th>
-                            <th>Actions</th>
+                            <th style="color: white !important;">Employee Name</th>
+                            <th style="color: white !important;">Start Date</th>
+                            <th style="color: white !important;">End Date</th>
+                            <th style="color: white !important;">Reason</th>
+                            <th style="color: white !important;">Status</th>
+                            <th style="color: white !important;">Actions</th>
                         </tr>
                     </thead>
                     <tbody style="background-color: #f8f9fa; font-size: 11px;">
                         @foreach (var request in Model)
                         {
                             <tr class="hover-effect">
-                                <td>@request.Employee.Name</td>
-                                <td>@(request.StartDate != null ? request.StartDate.ToString("yyyy-MM-dd") : "N/A")</td>
-                                <td>@(request.EndDate != null ? request.EndDate.ToString("yyyy-MM-dd") : "N/A")</td>
-                                <td>@request.Reason</td>
+                                <td style="font-size: 18px;">@request.Employee.Name</td>
+                                <td style="font-size: 18px;">@(request.StartDate != null ? request.StartDate.ToString("yyyy-MM-dd") : "N/A")</td>
+                                <td style="font-size: 18px;">@(request.EndDate != null ? request.EndDate.ToString("yyyy-MM-dd") : "N/A")</td>
+                                <td style="font-size: 18px;">@request.Reason</td>
+
                                 <td>
                                     <span class="badge @(request.Status == "Approved" ? "bg-success" : request.Status == "Rejected" ? "bg-danger" : "bg-warning")">
                                         @request.Status
