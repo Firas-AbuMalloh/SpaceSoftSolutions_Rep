@@ -145,7 +145,7 @@
               "RelativeDocumentMoniker": "SpaceSoftSolutions\\Views\\Managers\\Evaluation.cshtml",
               "ToolTip": "C:\\Users\\ruainaalyasein\\Music\\SpaceSoftSolutions_Rep\\SpaceSoftSolutions\\SpaceSoftSolutions\\Views\\Managers\\Evaluation.cshtml",
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\Evaluation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T05:51:24.525Z",
               "EditorCaption": ""
@@ -160,8 +160,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\showEvaluation.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T05:39:34.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:39:34.945Z"
             },
             {
               "$type": "Document",
@@ -173,8 +172,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\Leaves.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T05:33:47.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:33:47.272Z"
             },
             {
               "$type": "Document",
@@ -186,8 +184,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\Tasks.cshtml",
               "ViewState": "AgIAABkAAAAAAAAAAAAAAFgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T05:27:06.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:27:06.012Z"
             },
             {
               "$type": "Document",
@@ -199,8 +196,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\Attendance.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T05:22:52.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:22:52.361Z"
             },
             {
               "$type": "Document",
@@ -212,8 +208,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\Index.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T05:03:38.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:03:38.726Z"
             },
             {
               "$type": "Document",
@@ -249,8 +244,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\ShowTasks.cshtml",
               "ViewState": "AgIAAGoAAAAAAAAAAAAkwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T21:20:45.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T21:20:45.712Z"
             },
             {
               "$type": "Document",
@@ -286,8 +280,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Views\\Managers\\TaskDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-03T21:12:45.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T21:12:45.743Z"
             },
             {
               "$type": "Document",
@@ -299,8 +292,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-03T10:41:41.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T10:41:41.309Z"
             },
             {
               "$type": "Document",
@@ -312,8 +304,7 @@
               "RelativeToolTip": "SpaceSoftSolutions\\Models\\MyDbContext.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAYwB0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:44:18.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T18:44:18.406Z"
             },
             {
               "$type": "Document",
